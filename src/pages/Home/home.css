@@ -1,0 +1,72 @@
+.containerTable{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+}
+
+table{
+  width: 99vw;
+}
+
+th {
+  background-color: var(--azulescuro);
+  color: var(--branco);
+  font-family: var(--roboto);
+  font-weight: 400;
+  min-height: 45px;
+}
+/*Status*/
+th:nth-child(1) {
+  min-width: 100px;
+}
+/* Pedido, Prazo inicial, Prazo Final, Proposta, Data da entrada, Data da Aprovação, Valor(R$), NF  */
+th:nth-child(2),
+th:nth-child(5),
+th:nth-child(6),
+th:nth-child(7),
+th:nth-child(8),
+th:nth-child(9),
+th:nth-child(10),
+th:nth-child(11) {
+  min-width: 100px;
+}
+/*QTD, BT_Remover*/
+th:nth-child(3) {
+  min-width: 70px;
+}
+/*Cliente*/
+th:nth-child(4) {
+  min-width: 250px;
+}
+
+/*BT_Remover*/
+th:nth-child(12){
+  min-width: 50px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Alternar cores entre linhas da tabela*/
+tr:nth-child(even) {
+  background-color: var(--branco);
+}
+tr:nth-child(odd) {
+  background-color: var(--branco);
+}
+
+td {
+  text-align: center;
+  min-height: 30px;
+  cursor: pointer;
+  border: 1px solid var(--azulescuro)
+}
+
+td:nth-child(12){
+  font-size: 1.2rem;
+  color: brown;
+}
+

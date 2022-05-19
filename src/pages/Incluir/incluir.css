@@ -1,0 +1,81 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.containerInserir {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 27px;
+  width: 560px;
+  height: 400px;
+}
+
+.formTitulo {
+  color: var(--azulescuro);
+  font-family: var(--poppins);
+  text-align: center;
+  margin: 25px 0;
+  text-transform: uppercase;
+}
+
+.formInserir {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.inputFormInserir {
+  width: 140px;
+  margin: 0 10px 20px 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.labelFormInserir:nth-child(4) .inputFormInserir {
+  width: 320px;
+}
+
+.labelFormInserir {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.iconsDiv{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.iconsInserir{
+  font-size: 2.5rem;
+  color: var(--azulescuro);
+  margin: 5px;
+  cursor: pointer;
+}
+
+.iconsInserir:hover{
+  color: var(--azulclaro);
+  transition: 500ms;
+}

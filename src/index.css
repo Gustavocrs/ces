@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --branco: #f1f1f1;
+  --preto: #1f1f1f;
+  --cinzaclaro: #d4d4d4;
+  --cinzaescuro: #b8b8b8;
+  --azulclaro: #1f94a8;
+  --azulescuro: #124f7e;
+
+  --roboto: "Roboto";
+  --poppins: "Poppins";
+  --montserrat: "Montserrat";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--branco);
+  font-family: var(--roboto);
 }
