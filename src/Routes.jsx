@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Login from "../pages/Login";
-import Incluir from "../pages/Incluir";
-import Home from "../pages/Home";
+import Login from "./pages/Login";
+import Incluir from "./pages/Incluir";
+import Home from "./pages/Home";
 
 const Private = ({ Item }) => {
   const logado = true;

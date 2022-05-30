@@ -1,19 +1,19 @@
 import "./login.css";
 import { GrStackOverflow } from "react-icons/gr";
-import Button from "../../components/Button";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Button } from "../../components/Button";
 
 export default function Login() {
   const [login, setLogin] = useState("admin");
   const [password, setPassword] = useState("123");
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   function Logar(e) {
     e.preventDefault();
     if (login === "admin" && password === "123") {
       alert("login realizado");
-      navigate("/home")
+      navigate("/home");
     } else {
       alert("login incorreto");
     }
@@ -51,7 +51,7 @@ export default function Login() {
               onChange={(e) => setPassword(e.target.value)}
             />
           </label>
-          <Button text="Entrar" onClick={Logar} id="buttonLogin" />
+          <Button onClick={Logar} id="buttonLogin">Entrar</Button>
         </form>
       </div>
     </div>

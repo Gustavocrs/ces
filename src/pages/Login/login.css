@@ -19,7 +19,7 @@ div form input {
   border-radius: 5px;
   outline: none;
   font-size: 1.2rem;
-  font-family: var(--roboto);
+  font-family: "Roboto";
 }
 
 .containerLogin {
@@ -29,23 +29,29 @@ div form input {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: var(--azulescuro);
+  background-color: #124f7e;
 }
 
 .iconLogoLogin {
   font-size: 5rem;
-  color: var(--azulclaro);
+  color: #1f94a8;
   display: flex;
   margin: 40px 0;
 }
 
 .tituloPrincipalLogin {
   font-size: 1.6rem;
-  color: var(--branco);
+  color: #f1f1f1;
   margin: 0 15px;
 }
 
 #buttonLogin {
   margin-top: 20px;
-  background-color: var(--azulclaro);
+  background-color: #124f7e;
+  color: #FFF;
+}
+
+#buttonLogin:hover {
+  background-color: #1f94a8;
+  color: #FFF;
 }

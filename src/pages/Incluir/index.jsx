@@ -5,7 +5,7 @@ import { AiOutlineClear, AiOutlineSave } from "react-icons/ai";
 export default function Incluir() {
   return (
     <>
-      <Navbar />
+    <Navbar />
       <div className="containerInserir">
         <div className="box">
           <h1 className="formTitulo">Cadastrar novo pedido</h1>

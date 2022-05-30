@@ -1,10 +1,11 @@
-import "./App.css";
-import RoutesAPP from "./routes/index";
+import RoutesAPP from "./Routes";
+import { GlobalStyle } from "./components/GlobalStyle";
 
 export default function App() {
   return (
     <div>
-      <RoutesAPP/>
+      <GlobalStyle />
+      <RoutesAPP />
     </div>
   );
 }

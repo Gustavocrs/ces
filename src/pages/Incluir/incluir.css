@@ -1,3 +1,4 @@
+/*REMOVE SETAS DO INPUT NUMBER*/
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -27,8 +28,8 @@ input[type="number"] {
 }
 
 .formTitulo {
-  color: var(--azulescuro);
-  font-family: var(--poppins);
+  color: #124f7e;
+  font-family: "Roboto";
   text-align: center;
   margin: 25px 0;
   text-transform: uppercase;
@@ -70,12 +71,12 @@ input[type="number"] {
 
 .iconsInserir{
   font-size: 2.5rem;
-  color: var(--azulescuro);
+  color: #124f7e;
   margin: 5px;
   cursor: pointer;
 }
 
 .iconsInserir:hover{
-  color: var(--azulclaro);
+  color: #1f94a8;
   transition: 500ms;
 }
