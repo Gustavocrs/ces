@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Gustavocrs/ces/static/css/main.2aa6da6b.css",
+    "main.js": "/Gustavocrs/ces/static/js/main.b19b52eb.js",
+    "index.html": "/Gustavocrs/ces/index.html",
+    "main.2aa6da6b.css.map": "/Gustavocrs/ces/static/css/main.2aa6da6b.css.map",
+    "main.b19b52eb.js.map": "/Gustavocrs/ces/static/js/main.b19b52eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aa6da6b.css",
+    "static/js/main.b19b52eb.js"
+  ]
+}
