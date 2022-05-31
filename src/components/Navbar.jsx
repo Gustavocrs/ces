@@ -2,9 +2,6 @@ import styled from "styled-components";
 
 import {
   branco,
-  preto,
-  cinzaclaro,
-  cinzaescuro,
   azulescuro,
   azulclaro,
 } from "./UI/variaveis";
