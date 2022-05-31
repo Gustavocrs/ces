@@ -18,7 +18,7 @@ export const Button = styled.button`
     transition: 500ms;
   }
 `;
-
+// eslint-disable-next-line
 export default (props) => {
   return (
     <Button onClick={props.onClick} id={props.id}>
