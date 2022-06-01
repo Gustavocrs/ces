@@ -20,6 +20,6 @@
 <p><h3>Adaptação</h3> Gustavo Silva</p>
 
 <h3>Imagens do projeto</h3>
-<img alt="Imagem do projeto" src="./img/design/Login.png"/>
-<img alt="Imagem do projeto" src="./img/design/Cadastro.png"/>
-<img alt="Imagem do projeto" src="./img/design/Principal.png"/>
+<img alt="Imagem do projeto" src="./src/img/design/Login.png"/>
+<img alt="Imagem do projeto" src="./src/img/design/Cadastro.png"/>
+<img alt="Imagem do projeto" src="./src/img/design/Principal.png"/>
